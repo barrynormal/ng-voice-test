@@ -42,3 +42,17 @@ The result should be a clarification/enlargement of context for:
 
 
 ### From General research
+
+
+
+# Basic structure.
+
+## Introduction
+* What is IMS Core Supplementary service provisioning ? 
+* Who should care, how this document helps.
+* How to use this doc.
+
+## For everyone
+Outline the process from high level, using diagram (this is place holder diagram!)
+
+![ Provisioning Supplementary Services ng-voice ](images/hss.png)
