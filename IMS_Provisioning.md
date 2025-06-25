@@ -75,5 +75,5 @@ Outline the process from high level, using a diagram (this is place holder!)
  
 4. SSD Interface, access to it, how it translates to Sh Interface. Links to more info on Sh Interface/Diameter
 
-5. Finally, show example, with notes:
+### Show example, with notes:
 * Enabling Call Forwarding Unconditional (CFU)
