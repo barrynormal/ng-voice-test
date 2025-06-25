@@ -77,3 +77,25 @@ Outline the process from high level, using a diagram (this is place holder!)
 
 ### Show example, with notes:
 * Enabling Call Forwarding Unconditional (CFU)
+
+```XML
+<cp:rule
+  xmlns:cp="urn:ietf:params:xml:ns:common-policy"
+  xmlns:ss="http://uri.etsi.org/ngn/params/xml/simservs/xcap"
+  id="unconditional">
+  <cp:conditions/>
+  <cp:actions>
+    <ss:forward-to>
+      <ss:target>tel:+<FORWARDING_NUMBER></ss:target>
+      <ss:notify-caller>true</ss:notify-caller>
+    </ss:forward-to>
+  </cp:actions>
+</cp:rule>
+```
+> (Note: For disabling, `<cp:conditions>` would include `<ss:rule-deactivated/>`)
+
+#### Continue example to include 
+* generated curl
+* expected responses?
+* testing process?
+* other trouble-shooting based on data from Support team.
