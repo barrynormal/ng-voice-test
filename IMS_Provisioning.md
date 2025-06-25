@@ -42,7 +42,7 @@ The result should be a clarification/enlargement of context for:
 
 
 ### From General research
-
+Collect links and snippets to provide good descriptions of the various acronyms and technologies involved: HSS, SSD, Sh Interface, Diameter etc...
 
 
 # Basic structure.
@@ -53,6 +53,27 @@ The result should be a clarification/enlargement of context for:
 * How to use this doc.
 
 ## For everyone
-Outline the process from high level, using diagram (this is place holder diagram!)
+Outline the process from high level, using a diagram (this is place holder!)
 
 ![ Provisioning Supplementary Services ng-voice ](images/hss.png)
+
+> Could be the process is simple enough that only one diagram is required, with links to the relevant scripts and examples. 
+
+### Walk through the process 
+1. Subscriber makes request to CRM => However this happens 
+* link to 'make a request' 
+* (Q:At what point do we go from regular text in a form to XML?)
+
+2. Exactly how do the request get to the Provisioning Proxy? 
+
+3. How the XML docs are manipulated over Ut Interface. And by whom 
+* [Link to example XML] 
+* [link to curl template]
+* [link to URL formatting and how to find/grok the various fields, like IMPU_NUMBER]
+* Testing - how to?
+
+ 
+4. SSD Interface, access to it, how it translates to Sh Interface. Links to more info on Sh Interface/Diameter
+
+5. Finally, show example, with notes:
+* Enabling Call Forwarding Unconditional (CFU)
