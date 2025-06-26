@@ -1,17 +1,35 @@
 
 # IMS Provisioning Process documentation 
 
-Here I've 
+Section 1, 'Discovery', is designed to answer some questions regarding the required documentation. 
+
+These are:
+1. Who will be using this information? 
+* Internal/external/devs/ops etc...
+
+2. The context into which this process fits
+* The nature of the issues raised by clients/users
+* How the system is connected to and updated
+* How tests can be performed to verify everything is as it should be
+* The relationship between this system and related components
+
+3. Establish the best structure for the documentation
+* Do we need separate pieces for technical and non-technical audiences *(Probably not)*
+* How much can we rely on diagrams *(depends on level of complexity)*
+* To what extent is it possible to provide an example solution which will cover all cases? 
+* Related docs and processes to be linked  *(such as standards and other internal processes)*
+
+Section 2, 'Basic structure', gives a first draft for the documentation. 
 
 
-## 1.Information gathering stage
+## 1. Discovery
 
 ### From Support team
 As usual, first port of call would be an orientation call to discover any ongoing issues from the Support team. 
 * How could this process work better for you?
 
-* details of incoming request - frequency, etc. Are there any triggers, like network load, etc?
-* who makes these requests? Make sure to understand the full audience. Their needs and technical competence.
+* Details of incoming request - frequency, etc. Are there any triggers, like network load, etc?
+* Who makes these requests? Make sure to understand the full audience. Their needs and technical competence.
 * describe the issue or issues as stated by users? Are there more than one? List them. Make sure to catch edge cases.
 * What is the resolution? Do you have a standard doc you send out?
 * How successful is the resolution?
@@ -49,7 +67,7 @@ The result should be a clarification/enlargement of context for:
 Collect links and snippets to provide good descriptions of the various acronyms and technologies involved: HSS, SSD, Sh Interface, Diameter etc...
 
 
-# 2. Basic document structure
+# 2. Basic structure
 
 ## Introduction
 * What is IMS Core Supplementary service provisioning ? 
