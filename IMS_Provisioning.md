@@ -10,6 +10,8 @@ This document is split into two sections.
 These are:
 1. Who will be using this information? 
   * Internal/external/devs/ops etc...
+  * Do these audiences interact? For example, who provides engineering with new request?
+  * Relative levels of technical knowledge
 
 2. The context into which this process fits
   * The nature of the issues raised by clients/users
@@ -26,6 +28,8 @@ These are:
 
 **Section 2**, 'Basic structure', gives a first draft for the documentation. 
 
+> Note. The ambition is to provide clarity. So, if a step by step walk through of any process can be supplied, it should be. Though always within context.
+
 
 ## 1. Discovery
 
@@ -35,7 +39,7 @@ As usual, first port of call would be an orientation call to discover any ongoin
 
   * Details of incoming request - frequency, etc. Are there any triggers, like network load, etc?
   * Who makes these requests? Make sure to understand the full audience. Their needs and technical competence.
-  * describe the issue or issues as stated by users? Are there more than one? List them. Make sure to catch edge cases.
+  * Describe the issue or issues as stated by users? Are there more than one? List them. Make sure to catch edge cases.
   * What is the resolution? Do you have a standard doc you send out?
   * How successful is the resolution?
   * Do you get repeat requests from same clients or does the first interaction solve the issue?
