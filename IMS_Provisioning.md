@@ -28,7 +28,7 @@ These are:
 
 **Section 2**, 'Basic structure', gives a first draft for the documentation. 
 
-> Note. The ambition is to provide clarity. So, if a step by step walk through of any process can be supplied, it should be. Though always within context.
+> **Note.** The ambition is to provide clarity. So, if a step by step walk through of any process can be supplied, it should be. Though always within context.
 
 
 ## 1. Discovery
