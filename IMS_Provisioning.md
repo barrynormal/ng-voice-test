@@ -1,7 +1,7 @@
 
 # IMS Provisioning Process documentation 
 
-Section 1, 'Discovery', is designed to answer some questions regarding the required documentation. 
+**Section 1**, 'Discovery', is designed to answer some questions regarding the required documentation. 
 
 These are:
 1. Who will be using this information? 
@@ -19,7 +19,7 @@ These are:
 * To what extent is it possible to provide an example solution which will cover all cases? 
 * Related docs and processes to be linked  *(such as standards and other internal processes)*
 
-Section 2, 'Basic structure', gives a first draft for the documentation. 
+**Section 2**, 'Basic structure', gives a first draft for the documentation. 
 
 
 ## 1. Discovery
