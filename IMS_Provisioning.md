@@ -67,14 +67,14 @@ The result should be a clarification/enlargement of context for:
 Collect links and snippets to provide good descriptions of the various acronyms and technologies involved: HSS, SSD, Sh Interface, Diameter etc...
 
 
-# 2. Basic structure
+## 2. Basic structure
 
-## Introduction
+### Introduction
   * What is IMS Core Supplementary service provisioning ? 
   * Who should care, how this document helps.
   * How to use this doc.
 
-## For everyone
+### For everyone
 Outline the process from high level, using a diagram (this is place holder!)
 
 ![ Provisioning Supplementary Services ng-voice ](images/hss.png)
