@@ -3,7 +3,7 @@
 ## 1.Information gathering stage
 
 ### From Support team
-As usual, first port of call would be an orientation call to discover any ongoing issues from the Ops team. 
+As usual, first port of call would be an orientation call to discover any ongoing issues from the Support team. 
 * How could this process work better for you?
 
 * details of incoming request - frequency, etc. Are there any triggers, like network load, etc?
@@ -14,7 +14,7 @@ As usual, first port of call would be an orientation call to discover any ongoin
 * Do you get repeat requests from same clients or does the first interaction solve the issue?
 
 ### From Engineering team
-As usual, first port of call would be an orientation call to discover any ongoing issues from the Ops team. 
+As usual, first port of call would be an orientation call to discover any ongoing issues from the Engineering team. 
 * How could this process work better for you?
 
 1. Outline of the process of IMS Core supplementary service provisioning in detail. 
@@ -45,7 +45,7 @@ The result should be a clarification/enlargement of context for:
 Collect links and snippets to provide good descriptions of the various acronyms and technologies involved: HSS, SSD, Sh Interface, Diameter etc...
 
 
-# Basic structure.
+# 2. Basic document structure
 
 ## Introduction
 * What is IMS Core Supplementary service provisioning ? 
@@ -67,8 +67,8 @@ Outline the process from high level, using a diagram (this is place holder!)
 2. Exactly how do the request get to the Provisioning Proxy? 
 
 3. How the XML docs are manipulated over Ut Interface. And by whom 
-* [Link to example XML] 
-* [link to curl template]
+* [Link to example structure with notes] 
+* [link to curl template with notes]
 * [link to URL formatting and how to find/grok the various fields, like IMPU_NUMBER]
 * Testing - how to?
 
@@ -94,7 +94,7 @@ Outline the process from high level, using a diagram (this is place holder!)
 ```
 > (Note: For disabling, `<cp:conditions>` would include `<ss:rule-deactivated/>`)
 
-#### Continue example to include 
+#### Continue example to include :
 * generated curl
 * expected responses?
 * testing process?
