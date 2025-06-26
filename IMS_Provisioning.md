@@ -1,6 +1,10 @@
 
 # IMS Provisioning Process documentation 
 
+## Introduction
+
+This document is split into two sections.
+
 **Section 1**, 'Discovery', is designed to answer some questions regarding the required documentation. 
 
 These are:
