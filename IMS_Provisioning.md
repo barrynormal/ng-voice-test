@@ -11,7 +11,8 @@ These are:
   * The nature of the issues raised by clients/users
   * How the system is connected to and updated
   * How tests can be performed to verify everything is as it should be
-  * The relationship between this system and related components
+  * The relationship between this system and other ng-voice components
+  * The full list of things managed by this (or similar) process
 
 3. The best structure for the documentation
   * Do we need separate pieces for technical and non-technical audiences *(Probably not)*
@@ -73,26 +74,27 @@ Collect links and snippets to provide good descriptions of the various acronyms 
   * What is IMS Core Supplementary service provisioning ? 
   * Who should care, how this document helps.
   * How to use this doc.
+> Possibly include simple definitions of key terms, like SSD and Sh Interface. Links would suffice.
 
 ### For everyone
 Outline the process from high level, using a diagram (this is place holder!)
 
 ![ Provisioning Supplementary Services ng-voice ](images/hss.png)
 
-> Could be the process is simple enough that only one diagram is required, with links to the relevant scripts and examples. 
+> Could be the process is simple enough that only one diagram is required, with links to the relevant scripts and examples? 
 
 ### Walk through the process 
 1. Subscriber makes request to CRM => However this happens 
   * link to 'make a request' 
   * (Q:At what point do we go from regular text in a form to XML?)
 
-2. Exactly how do the request get to the Provisioning Proxy? 
+2. Exactly how does the request get to the Provisioning Proxy? 
 
 3. How the XML docs are manipulated over Ut Interface. And by whom 
   * [Link to example structure with notes] 
   * [link to curl template with notes]
   * [link to URL formatting and how to find/grok the various fields, like IMPU_NUMBER]
-  * Testing - how to?
+ > Testing - how does this happen?
 
  
 4. SSD Interface, access to it, how it translates to Sh Interface. Links to more info on Sh Interface/Diameter
